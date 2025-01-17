@@ -25,7 +25,9 @@ const ProjectSection = ({ index, image, title, des, reverse }) => {
                 {des}
               </p>
 
-              <IoOpenOutline size={20} className="mt-4" />
+              <a href="https://github.com/Aravind179B/Portfolio" target="_blank" rel="noopener noreferrer">
+                <IoOpenOutline size={20} className="mt-4" />
+              </a>
             </div>
           </div>
         </>
@@ -40,8 +42,9 @@ const ProjectSection = ({ index, image, title, des, reverse }) => {
               <p className="text-[14px] md:text-[15px] font-light text-custom-neutral w-full md:w-[95%] pt-4">
                 {des}
               </p>
-
-              <IoOpenOutline size={20} className="mt-4" />
+              <a href=" https://github.com/Aravind179B/Interior" target="_blank" rel="noopener noreferrer">
+                <IoOpenOutline size={20} className="mt-4" />
+              </a>
             </div>
           </div>
 

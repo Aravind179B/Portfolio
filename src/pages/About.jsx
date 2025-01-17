@@ -12,7 +12,7 @@ const About = () => {
                 <img src={assets.user_image} alt="" className='rounded-3xl'/>
             </div>
             <div className='flex-1'>
-              <p className='mb-10 max-w-2xl'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quia modi dolor laborum vitae cum sint doloribus aspernatur ut? Dolorum labore temporibus sequi alias nobis explicabo dolore tempore, ipsam quaerat!</p>
+              <p className='mb-10 max-w-2xl'>Passionate Front-end developer about crafting visually stunning and user-friendly web interfaces. I specialize in turning ideas into responsive, interactive, and pixel-perfect designs. With expertise in modern frameworks and a focus on performance, I bring creativity and functionality together.</p>
               <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
                 {infoList.map(({icon, iconDark, title, description}, index)=>(
                   <li className='border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-blend-darken hover:-translate-y-1 duration-500 ' key={index}>
